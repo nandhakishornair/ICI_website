@@ -1,0 +1,276 @@
+.feature {
+  margin-bottom: 30px;
+}
+
+.carousel-image {
+    height: 500px; /* Adjust the height value as needed */
+    object-fit: cover;
+}
+
+.heading-wrapper {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #333;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.heading-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.heading-wrapper:hover::before {
+  opacity: 1;
+}
+
+.heading-wrapper h2,
+.heading-wrapper p {
+  transition: color 0.3s ease;
+}
+
+.heading-wrapper:hover h2,
+.heading-wrapper:hover p {
+  color: #fff;
+}
+
+.jumbotron {
+  background-color: #333;
+  color: #fff;
+  /* margin-top: 50px; */
+}
+
+/*  */
+.webinar1 {
+   
+  background-color: #727272;/* Set the background color to a dark color */
+  color: #fff; /* Set the text color to white */
+  padding: 80px 0; /* Add padding to the top and bottom of the section */
+}
+.webinar2 {
+  background-color: #333;  /* Set the background color to a dark color */
+  color: #fff; /* Set the text color to white */
+  padding: 80px 0; /* Add padding to the top and bottom of the section */
+}
+
+.webinar1 h2,
+.webinar1 h3,
+.webinar1 p,.webinar2 h2,
+.webinar2 h3,.webinar2 h6,
+.webinar2 p {
+  color: #fff; /* Set the text color of headings and paragraphs to white */
+}
+
+.webinar1 img,.webinar2 img {
+  max-width: 100%; /* Ensure the image stays within its container */
+  max-height: 500px;
+  display: block; /* Remove any default spacing and ensure it's a block element */
+  margin-bottom: 30px; /* Add some bottom margin to the image */
+}
+
+.webinar1 .btn,.webinar2 .btn {
+  background-color: #ff7f50; /* Set the background color of the button */
+  color: #fff; /* Set the text color of the button to white */
+  border: none; /* Remove the button border */
+  padding: 10px 20px; /* Add padding to the button */
+  font-size: 16px; /* Adjust the font size of the button */
+  text-decoration: none; /* Remove any default text decoration */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.webinar1 .btn:hover,.webinar2 .btn:hover {
+  background-color: #ff6347; /* Change the background color on hover */
+}
+
+.mb-8 {
+  margin-bottom: 8rem !important;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* card design  */
+
+.webinars {
+  background-color: #333;
+  padding: 50px 0;
+}
+
+.webinars h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.webinars p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.card {
+  background-color: #4a4949;
+  color: #fff;
+  border: none;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #ccc;
+  font-size: 16px;
+}
+
+/* footer styling */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.newsletter-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter-form input[type="submit"] {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.social-media-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 10px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.social-media-icons a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 768px) {
+  .newsletter-form input[type="email"] {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+  .footer-links li {
+    margin-bottom: 5px;
+  }
+
+  .newsletter-form input[type="email"] {
+    width: 100%;
+  }
+
+  .newsletter-form input[type="submit"] {
+    padding: 10px 20px;
+  }
+
+  .social-media-icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 5px;
+  }
+}
+.features{
+  background-color: #727272; 
+  /* margin-bottom: 0px; */
+}
+/* feature section image styling */
+.my-image {
+  width: 100%; /* Set the width of the image */
+  max-width: 1000px; /* Set the maximum width of the image */
+  height: auto; /* Maintain the aspect ratio of the image */
+  display: block; /* Make the image a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+
+
+
+
+
+
