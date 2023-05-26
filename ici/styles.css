@@ -6,7 +6,10 @@
     height: 500px; /* Adjust the height value as needed */
     object-fit: cover;
 }
-
+.navbar-brand img{
+  height: 70px;
+  width: 70px;
+}
 .heading-wrapper {
   text-align: center;
   padding: 50px 0;
@@ -157,7 +160,7 @@
 /* footer styling */
 
 .footer {
-  background-color: #333;
+  background-color: #222;
   color: #fff;
   padding: 40px 0;
 }
@@ -300,4 +303,173 @@
 }
 
 
+/* styling tryout */
 
+
+.events {
+  padding: 50px 0;
+}
+
+.eventHeading {
+  margin-bottom: 30px;
+}
+
+.vedio {
+  margin-bottom: 30px;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .center-image {
+    width: 80%;
+  }
+}
+
+/* contact section styling */
+#contact {
+  background-color: #222;
+  color: #fff;
+  padding: 50px;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact p {
+  text-align: center;
+}
+
+#contact .row {
+  margin-top: 30px;
+}
+
+#contact .col-md-6 {
+  margin-bottom: 30px;
+}
+
+#contact form .form-group label {
+  color: #fff;
+}
+
+#contact form .form-group input,
+#contact form .form-group textarea {
+  background-color: #333;
+  border: none;
+  color: #fff;
+}
+
+#contact form .form-group input:focus,
+#contact form .form-group textarea:focus {
+  outline: none;
+}
+
+#contact form .btn {
+  background-color: #fff;
+  color: #222;
+}
+
+#contact form .btn:hover {
+  background-color: #ccc;
+  color: #222;
+}
+
+#contact .social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#contact .social-icons a {
+  display: inline-block;
+  color: #fff;
+  font-size: 32px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+#contact .social-icons a:hover {
+  color: #ccc;
+}
+
+
+
+/* map */
+
+
+#map {
+  height: 400px;
+  /* margin-top: 50px; */
+  /* margin-bottom: 50px; */
+}
+
+
+/* about us styling */
+
+#about-us {
+  background-color: #222;
+  color: #fff;
+  padding: 50px;
+}
+
+#about-us h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#about-us p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#about-us .row {
+  display: flex;
+  justify-content: center;
+}
+
+#about-us .col-md-4,
+#about-us .col-md-8 {
+  text-align: center;
+}
+
+#about-us h3 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#about-us .committee-list {
+  list-style: none;
+  padding: 0;
+}
+
+#about-us .committee-list li {
+  margin-bottom: 10px;
+}
+
+#about-us .committee-list strong {
+  font-size: 18px;
+}
+
+#about-us .committee-member {
+  color: #cfd8dc;
+  font-weight: bold;
+  margin-left: 20px;
+  padding-left: 15px;
+  position: relative;
+}
+#about-us .heading{
+background-color: #444;
+}
+
+#about-us .committee-member:before {
+  content: "\2022";
+  color: #fbc02d;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
