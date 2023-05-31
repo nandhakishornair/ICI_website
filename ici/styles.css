@@ -274,7 +274,7 @@
 /* events */
 
 .events {
-  background-color: #444;
+  background-color: #727272;
   padding: 20px;
 }
 
@@ -288,7 +288,7 @@
   color: #fff;
 }
 .eventHeading {
-  background-color: #5d5050 !important;
+  background-color: #453f3f !important;
 }
 .my-image2 {
   width: 100%; /* Set the width of the image */
@@ -410,66 +410,5 @@
 
 /* about us styling */
 
-#about-us {
-  background-color: #222;
-  color: #fff;
-  padding: 50px;
-}
 
-#about-us h2 {
-  text-align: center;
-  margin-bottom: 30px;
-}
 
-#about-us p {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-#about-us .row {
-  display: flex;
-  justify-content: center;
-}
-
-#about-us .col-md-4,
-#about-us .col-md-8 {
-  text-align: center;
-}
-
-#about-us h3 {
-  color: #fff;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-#about-us .committee-list {
-  list-style: none;
-  padding: 0;
-}
-
-#about-us .committee-list li {
-  margin-bottom: 10px;
-}
-
-#about-us .committee-list strong {
-  font-size: 18px;
-}
-
-#about-us .committee-member {
-  color: #cfd8dc;
-  font-weight: bold;
-  margin-left: 20px;
-  padding-left: 15px;
-  position: relative;
-}
-#about-us .heading{
-background-color: #444;
-}
-
-#about-us .committee-member:before {
-  content: "\2022";
-  color: #fbc02d;
-  font-weight: bold;
-  position: absolute;
-  left: 0;
-}
