@@ -57,7 +57,7 @@
   </section>
   <!-- Carousel -->
   <section class="carousel">
-    <div id="carouselExample" class="carousel slide slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/Bogibeel_Bridge_view.jpg" class="d-block w-100 carousel-image" alt="Slide 1">
@@ -99,6 +99,15 @@
       <!-- <p>our features</p> -->
     </div>
   </section>
+
+  <script>
+    // Adjust carousel timing
+    $(document).ready(function(){
+      $('#carouselExample').carousel({
+        interval: 2000 // Change slide every 2 seconds (2000 milliseconds)
+      });
+    });
+  </script>
 
   <!-- Features -->
   <section class="features  pt-5  pb-5">
