@@ -427,7 +427,25 @@
 }
 
 
-/* members us styling */
+/* scroll button */
+
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
+}
+
+#scrollToTopButton:hover {
+  color: hsl(0, 100%, 100%);
+}
 
 
 
