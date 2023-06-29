@@ -447,6 +447,14 @@
   color: hsl(0, 100%, 100%);
 }
 
+.heading p{
+  font-size: 20px;
+}
+
+.members p {
+  font-size: 20px;
+}
+
 
 
 
