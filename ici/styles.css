@@ -179,6 +179,13 @@ body {
   font-size: 16px;
 }
 
+.card1 {
+  transition: transform 0.3s ease;
+}
+.card1:hover {
+  transform: scale(1.05);
+}
+
 /* footer styling */
 
 .footer {
@@ -319,10 +326,10 @@ body {
   display: block; /* Make the image a block element */
   margin: 0 auto; /* Center the image horizontally */
 }
-.event2{
+/* .event2{
   background-color: #444; 
-  /* margin-bottom: 0px; */
-}
+  
+} */
 
 
 /* styling tryout */
