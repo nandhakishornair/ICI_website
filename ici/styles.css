@@ -78,12 +78,14 @@ body {
    
   background-color: #727272;/* Set the background color to a dark color */
   color: #fff; /* Set the text color to white */
-  padding: 80px 0; /* Add padding to the top and bottom of the section */
+  /* padding: 80px 0;  */
+  /* Add padding to the top and bottom of the section */
 }
 .webinar2 {
   background-color: #333;  /* Set the background color to a dark color */
   color: #fff; /* Set the text color to white */
-  padding: 80px 0; /* Add padding to the top and bottom of the section */
+  /* padding: 80px 0;  */
+  /* Add padding to the top and bottom of the section */
 }
 
 .webinar1 h2,
@@ -98,7 +100,8 @@ body {
   max-width: 100%; /* Ensure the image stays within its container */
   max-height: 500px;
   display: block; /* Remove any default spacing and ensure it's a block element */
-  margin-bottom: 30px; /* Add some bottom margin to the image */
+  /* margin-bottom: 30px; */
+   /* Add some bottom margin to the image */
 }
 
 .webinar1 .btn,.webinar2 .btn {
@@ -185,6 +188,38 @@ body {
 .card1:hover {
   transform: scale(1.05);
 }
+
+
+
+
+/* images styling for events section */
+
+.small-image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.small-image:hover {
+  transform: scale(1.05);
+}
+
+/* .cool-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.cool-image:hover {
+  transform: scale(1.02);
+} */
+
+
 
 /* footer styling */
 
@@ -464,7 +499,12 @@ body {
 .members p {
   font-size: 20px;
 }
-
+/* increased width of the webinar iamges */
+/* .wider-image {
+  width: 70%;
+  max-width: 400px; 
+  height: auto;
+} */
 
 
 
