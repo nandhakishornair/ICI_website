@@ -1,18 +1,22 @@
 body {
   overflow-x: hidden;
 }
+
 .feature {
   margin-bottom: 30px;
 }
 
 .carousel-image {
-    height: 500px; /* Adjust the height value as needed */
-    object-fit: cover;
+  height: 500px;
+  /* Adjust the height value as needed */
+  object-fit: cover;
 }
-.navbar-brand img{
+
+.navbar-brand img {
   height: 70px;
   width: 70px;
 }
+
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
   font-weight: bold;
@@ -32,6 +36,7 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 .heading-wrapper2 {
   text-align: center;
   padding: 50px 0;
@@ -75,47 +80,68 @@ body {
 
 /*  */
 .webinar1 {
-   
-  background-color: #727272;/* Set the background color to a dark color */
-  color: #fff; /* Set the text color to white */
+
+  background-color: #727272;
+  /* Set the background color to a dark color */
+  color: #fff;
+  /* Set the text color to white */
   /* padding: 80px 0;  */
   /* Add padding to the top and bottom of the section */
 }
+
 .webinar2 {
-  background-color: #333;  /* Set the background color to a dark color */
-  color: #fff; /* Set the text color to white */
+  background-color: #333;
+  /* Set the background color to a dark color */
+  color: #fff;
+  /* Set the text color to white */
   /* padding: 80px 0;  */
   /* Add padding to the top and bottom of the section */
 }
 
 .webinar1 h2,
 .webinar1 h3,
-.webinar1 p,.webinar2 h2,
-.webinar2 h3,.webinar2 h6,
+.webinar1 p,
+.webinar2 h2,
+.webinar2 h3,
+.webinar2 h6,
 .webinar2 p {
-  color: #fff; /* Set the text color of headings and paragraphs to white */
+  color: #fff;
+  /* Set the text color of headings and paragraphs to white */
 }
 
-.webinar1 img,.webinar2 img {
-  max-width: 100%; /* Ensure the image stays within its container */
+.webinar1 img,
+.webinar2 img {
+  max-width: 100%;
+  /* Ensure the image stays within its container */
   max-height: 500px;
-  display: block; /* Remove any default spacing and ensure it's a block element */
+  display: block;
+  /* Remove any default spacing and ensure it's a block element */
   /* margin-bottom: 30px; */
-   /* Add some bottom margin to the image */
+  /* Add some bottom margin to the image */
 }
 
-.webinar1 .btn,.webinar2 .btn {
-  background-color: #ff7f50; /* Set the background color of the button */
-  color: #fff; /* Set the text color of the button to white */
-  border: none; /* Remove the button border */
-  padding: 10px 20px; /* Add padding to the button */
-  font-size: 16px; /* Adjust the font size of the button */
-  text-decoration: none; /* Remove any default text decoration */
-  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+.webinar1 .btn,
+.webinar2 .btn {
+  background-color: #ff7f50;
+  /* Set the background color of the button */
+  color: #fff;
+  /* Set the text color of the button to white */
+  border: none;
+  /* Remove the button border */
+  padding: 10px 20px;
+  /* Add padding to the button */
+  font-size: 16px;
+  /* Adjust the font size of the button */
+  text-decoration: none;
+  /* Remove any default text decoration */
+  transition: background-color 0.3s ease;
+  /* Add a smooth transition effect */
 }
 
-.webinar1 .btn:hover,.webinar2 .btn:hover {
-  background-color: #ff6347; /* Change the background color on hover */
+.webinar1 .btn:hover,
+.webinar2 .btn:hover {
+  background-color: #ff6347;
+  /* Change the background color on hover */
 }
 
 .mb-8 {
@@ -131,6 +157,7 @@ body {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -185,6 +212,7 @@ body {
 .card1 {
   transition: transform 0.3s ease;
 }
+
 .card1:hover {
   transform: scale(1.05);
 }
@@ -208,21 +236,11 @@ body {
 
 .equal-image {
   width: 100%;
-  height: 80%; /* Adjust the height as per your requirement */
+  height: 80%;
+  /* Adjust the height as per your requirement */
 }
 
-/* .cool-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease-in-out;
-}
 
-.cool-image:hover {
-  transform: scale(1.02);
-} */
 
 
 
@@ -327,17 +345,24 @@ body {
     margin: 0 5px;
   }
 }
-.features{
-  background-color: #727272; 
+
+.features {
+  background-color: #727272;
   /* margin-bottom: 0px; */
 }
+
 /* feature section image styling */
 .my-image {
-  width: 100%; /* Set the width of the image */
-  max-width: 1000px; /* Set the maximum width of the image */
-  height: auto; /* Maintain the aspect ratio of the image */
-  display: block; /* Make the image a block element */
-  margin: 0 auto; /* Center the image horizontally */
+  width: 100%;
+  /* Set the width of the image */
+  max-width: 1000px;
+  /* Set the maximum width of the image */
+  height: auto;
+  /* Maintain the aspect ratio of the image */
+  display: block;
+  /* Make the image a block element */
+  margin: 0 auto;
+  /* Center the image horizontally */
 }
 
 /* events */
@@ -347,7 +372,8 @@ body {
   padding: 20px;
 }
 
-.events h4,h1 {
+.events h4,
+h1 {
   margin-top: 0;
   color: #fff;
 }
@@ -356,16 +382,24 @@ body {
   margin-bottom: 5px;
   color: #fff;
 }
+
 .eventHeading {
   background-color: #453f3f !important;
 }
+
 .my-image2 {
-  width: 100%; /* Set the width of the image */
-  max-width: 1000px; /* Set the maximum width of the image */
-  height: auto; /* Maintain the aspect ratio of the image */
-  display: block; /* Make the image a block element */
-  margin: 0 auto; /* Center the image horizontally */
+  width: 100%;
+  /* Set the width of the image */
+  max-width: 1000px;
+  /* Set the maximum width of the image */
+  height: auto;
+  /* Maintain the aspect ratio of the image */
+  display: block;
+  /* Make the image a block element */
+  margin: 0 auto;
+  /* Center the image horizontally */
 }
+
 /* .event2{
   background-color: #444; 
   
@@ -497,19 +531,17 @@ body {
   color: hsl(0, 100%, 100%);
 }
 
-.heading p{
+.heading p {
   font-size: 20px;
 }
 
 .members p {
   font-size: 20px;
 }
+
 /* increased width of the webinar iamges */
 /* .wider-image {
   width: 70%;
   max-width: 400px; 
   height: auto;
 } */
-
-
-
