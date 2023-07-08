@@ -81,7 +81,7 @@ body {
 /*  */
 .webinar1 {
 
-  background-color: #727272;
+  background-color: #333;
   /* Set the background color to a dark color */
   color: #fff;
   /* Set the text color to white */
@@ -90,7 +90,8 @@ body {
 }
 
 .webinar2 {
-  background-color: #333;
+ 
+  background-color: #727272;
   /* Set the background color to a dark color */
   color: #fff;
   /* Set the text color to white */
