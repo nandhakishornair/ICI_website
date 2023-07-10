@@ -75,28 +75,20 @@ body {
 .jumbotron {
   background-color: #333;
   color: #fff;
-  /* margin-top: 50px; */
 }
 
 /*  */
 .webinar1 {
 
   background-color: #333;
-  /* Set the background color to a dark color */
   color: #fff;
-  /* Set the text color to white */
-  /* padding: 80px 0;  */
-  /* Add padding to the top and bottom of the section */
 }
 
 .webinar2 {
- 
+
   background-color: #727272;
-  /* Set the background color to a dark color */
   color: #fff;
-  /* Set the text color to white */
-  /* padding: 80px 0;  */
-  /* Add padding to the top and bottom of the section */
+
 }
 
 .webinar1 h2,
@@ -117,7 +109,6 @@ body {
   max-height: 500px;
   display: block;
   /* Remove any default spacing and ensure it's a block element */
-  /* margin-bottom: 30px; */
   /* Add some bottom margin to the image */
 }
 
@@ -349,7 +340,6 @@ body {
 
 .features {
   background-color: #727272;
-  /* margin-bottom: 0px; */
 }
 
 /* feature section image styling */
@@ -401,10 +391,6 @@ h1 {
   /* Center the image horizontally */
 }
 
-/* .event2{
-  background-color: #444; 
-  
-} */
 
 
 /* styling tryout */
@@ -507,8 +493,6 @@ h1 {
 
 #map {
   height: 600px;
-  /* margin-top: 50px; */
-  /* margin-bottom: 50px; */
 }
 
 
@@ -539,10 +523,3 @@ h1 {
 .members p {
   font-size: 20px;
 }
-
-/* increased width of the webinar iamges */
-/* .wider-image {
-  width: 70%;
-  max-width: 400px; 
-  height: auto;
-} */
