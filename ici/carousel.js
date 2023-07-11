@@ -7,3 +7,21 @@ document.addEventListener("DOMContentLoaded", function() {
       interval: 2000 // Change slide every 3 seconds (3000 milliseconds)
     });
   });
+
+  window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    var scrollToTopBtn = document.getElementById("scrollToTop");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopBtn.classList.add("active");
+    } else {
+        scrollToTopBtn.classList.remove("active");
+    }
+}
+
+function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
